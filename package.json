@@ -1,0 +1,19 @@
+{
+  "name": "mohp_covid_scrapper",
+  "version": "1.0.0",
+  "description": "A simple mohp covid scrapper that returns daily new cases, deaths and recovered using node js pippeteer package",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "puppeteer": "^9.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">=14.x"
+  }
+}
